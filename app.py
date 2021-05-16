@@ -40,7 +40,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/get')
+@app.route('/get', methods=['GET', 'POST'])
 def get_bot_response():
     msg = request.args.get('msg')
     return chatbot_response(model, words, msg, intents)
