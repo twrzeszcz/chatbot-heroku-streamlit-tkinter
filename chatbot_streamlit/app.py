@@ -1,6 +1,7 @@
 import pickle
 import numpy as np
-import keras
+import tensorflow as tf
+from tensorflow import keras
 import streamlit as st
 import json
 import random
