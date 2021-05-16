@@ -1,4 +1,5 @@
 import nltk
+nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 import pickle
 import numpy as np
