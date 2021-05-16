@@ -3,7 +3,8 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 import pickle
 import numpy as np
-import keras
+import tensorflow as tf
+from tensorflow import keras
 import json
 import random
 
