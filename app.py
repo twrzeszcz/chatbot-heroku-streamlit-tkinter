@@ -43,7 +43,8 @@ def index():
 @app.route('/get', methods=['GET', 'POST'])
 def get_bot_response():
     msg = request.args.get('msg')
-    return str(chatbot_response(model, words, msg, intents))
+    response = chatbot_response(model, words, msg, intents)
+    return str(response)
 
 if __name__ == '__main__':
     app.run(debug=True)
