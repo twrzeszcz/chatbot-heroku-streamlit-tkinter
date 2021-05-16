@@ -1,1 +1,2 @@
-# chatbot-heroku-streamlit-tkinter
+# General Info
+This is a simple chatbot project. Data preprocessing and training is done in the **chatbot_preprocessing_training** notebook. Then in the **chatbot_tkinter** notebook we build a simple GUI. App is also deployed here [Heroku](https://simple-chatbot-app.herokuapp.com/) and all the necessary files are stored in the *chatbot_heroku* folder. This app can be also deployed on Streamlit and all the files that are needed for that are in the *chatbot_streamlit* folder. I could not deploy it due to the limited number of apps that can be deployed. on streamlit.
