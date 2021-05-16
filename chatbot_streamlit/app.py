@@ -8,10 +8,10 @@ import random
 
 
 def load_files():
-    model = keras.models.load_model('chatbot_model.h5')
-    intents = json.loads(open('intents.json').read())
-    vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
-    lencoder = pickle.load(open('lencoder.pkl', 'rb'))
+    model = keras.models.load_model('chatbot_streamlit/chatbot_model.h5')
+    intents = json.loads(open('chatbot_streamlit/intents.json').read())
+    vectorizer = pickle.load(open('chatbot_streamlit/vectorizer.pkl', 'rb'))
+    lencoder = pickle.load(open('chatbot_streamlit/lencoder.pkl', 'rb'))
 
     return model, intents, vectorizer, lencoder
 
